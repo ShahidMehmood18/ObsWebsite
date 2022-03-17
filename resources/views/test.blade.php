@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('header')
-<style>
-  body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
 
-body::-webkit-scrollbar-track {
-  background: orange;        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid orange;  /* creates padding around scroll thumb */
-}
-p{
-  text-align: justify;
-}
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
-body::-webkit-scrollbar-track {
-  background: orange;        /* color of the tracking area */
-}
-body::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid orange;  /* creates padding around scroll thumb */
-}
-</style>
 <body id="mainbody">
 
 <div class="scroller">
@@ -336,9 +308,9 @@ body::-webkit-scrollbar-thumb {
         <h1 class="pills">Satisfied Clients</h1>
       </div>
 
-      <div class="row" style="width: 100%;">
-        <div class="col-md-12">
-          <div class="portfolios">
+      <div class="row  mt-5 pb-5" style="width: 100%;">
+        <div class="col-md-12 ">
+          <!-- <div class="portfolios"> -->
             <div class="inner-portfolios">
               <div class="clients-carousel owl-carousel custome_slide" id="slide-portfolio">
                 <div class="test_img">
@@ -346,10 +318,14 @@ body::-webkit-scrollbar-thumb {
                     <i class="fa fa-user"></i>
                   </div>
                   <div class="clientcontent">
-                    <h5>Fight Alerts</h5>
+                    <h5>Payfran</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>OBS Technologia team has an extremely well-rounded skill set across IOS and Android. The team was able to successfully bring my designs to life within IOS and Android by turning my wireframes and requirements into apps successfully posted on the app store. </p>
+                    <p>Osama and company always get the job done! They worked on this project 
+                        diligently and delivered a great product, as they always do. Osama is a good hire 
+                        and an intelligent young man. He and his team work together to achieve the goals 
+                        and like always, the result is amazing. 
+                    </p>
                   </div>
                 </div>
                 <div class="test_img">
@@ -357,10 +333,14 @@ body::-webkit-scrollbar-thumb {
                     <i class="fa fa-user"></i>
                   </div>
                   <div class="clientcontent">
-                    <h5>VO Rides</h5>
+                    <h5>Waraka</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Based on my working experience with OBS Technologia team, I will always recommend this team of talented developers. They are Very smart, and assist well in the brainstorming process.</p>
+                    <p>Osama and his team did a great job. They were able to build the app according to 
+                        my specifications. We didn't complete the project on time; however, they 
+                        communicated with me ahead of time so that I knew that I could expect delays but 
+                        other than that, job well done. Best of luck team OBS Technologia!
+                    </p>
                   </div>
                 </div>
 
@@ -372,7 +352,11 @@ body::-webkit-scrollbar-thumb {
                     <h5>Party</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>We have been working with OBS Technologia for the third time. The team consists of very good and competent individuals. The work is carried out quickly and accurately on time. Very satisfied with this team’s work and we hope to work more in future. We recommend OBS Technologia. Thank you very much!</p>
+                    <p>We have been working with OBS Technologia for the third time. The team 
+                        consists of very good and competent individuals. The work is carried out quickly 
+                        and accurately on time. Very satisfied with this team’s work, and we hope to work 
+                        more in the future. We recommend team OBS Technologia.
+                    </p>
                   </div>
                 </div>
 
@@ -381,10 +365,14 @@ body::-webkit-scrollbar-thumb {
                     <i class="fa fa-user"></i>
                   </div>
                   <div class="clientcontent">
-                    <h5>Waraka</h5>
+                    <h5>Flash math</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Osama and company did a great job. They were able to build the app according to my specifications. We didn't complete the project on time, however, they communicated with me ahead of time so that I knew that I could expect delays but other than that, job well done.</p>
+                    <p>Team OBS Technologia is an exceptional talent. They know what they are doing 
+                       and are very responsive. They were able to build the two apps that I needed for iOS 
+                       and Android. The end product was the same as promised. I would recommend 
+                       them to meet your IT needs. I will most definitely be using them again!
+                    </p>
                   </div>
                 </div>
 
@@ -393,10 +381,14 @@ body::-webkit-scrollbar-thumb {
                     <i class="fa fa-user"></i>
                   </div>
                   <div class="clientcontent">
-                    <h5>NFL Fantasy Website</h5>
+                    <h5>NFT Fantasy</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Shiraz always get the job done! He along with his team worked on this project diligently and delivered a great product as he always does. He's a very good hire and a smart young man. He and his team work together to achieve the goals. The end result is definitely amazing.</p>
+                    <p>OBS Technologia team has an extremely well-rounded skill set across IOS and 
+                      Android mobile app development. The team was able to successfully bring my 
+                      designs to life, within IOS and Android domain; by turning my wireframes and 
+                      requirements into apps.
+                    </p>
                   </div>
                 </div>
 
@@ -405,22 +397,44 @@ body::-webkit-scrollbar-thumb {
                     <i class="fa fa-user"></i>
                   </div>
                   <div class="clientcontent">
-                    <h5>Flash Math</h5>
+                    <h5>VO RIDES</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Team OBS Technologia is an exceptional talent. They know what they are doing and are very responsive. They were able to build the two apps that I needed for iOS and Android. I will most definitely be using them again! Thank you Team OBS Technologia!</p>
+                    <p>Based on my working experience with OBS Technologia team, I will always 
+                        recommend this team of talented developers. They are very smart and assist well in 
+                        the brainstorming process. The team was able to work with me from design to final 
+                        product
+                    </p>
+                  </div>
+                </div>
+
+                <div class="test_img">
+                  <div class="main-reviewimage">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="clientcontent">
+                    <h5>Cash me</h5>
+                    <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
+                    <hr class="line1">
+                    <p>Osama kept in regular contact and was clear from the beginning, about the 
+                      capabilities of his team. Not only his team is proficient in developing mobile 
+                      applications, but the graphic design skillset was clear in the UI/UX which was 
+                      suggested by the team.
+                    </p>
                   </div>
                 </div>
 
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </div>
 
   </section>
   <!-- =====================End Satisfied Clients============================ -->
+
+  <!-- =====================Our Portfolio============================ -->
   <div id="portfolio">
     <div class="container-fluid" style="padding: 0;">
       <div class="clientsheading clientsheadingportfoliopill clientsheadingportfolio">
@@ -664,9 +678,8 @@ body::-webkit-scrollbar-thumb {
       </section>
       <!-- =====================Portfolio Projects============================ -->
     </div>
-</div>
- 
-  <!-- =====================End Satisfied Clients============================ -->
+  </div>
+  <!-- =====================End Our Portfolio============================ -->
 
   <!-- =====================OUR TEAM============================ -->
   <section id="ourteam">
@@ -703,7 +716,6 @@ body::-webkit-scrollbar-thumb {
     <div class="container-fluid ourteamborder" style="padding: 0;">
     </div>
   </section>
-  
   <!-- =====================END OUR TEAM============================ -->
 
   <!-- =====================Contact Form============================ -->
