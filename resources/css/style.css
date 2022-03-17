@@ -1,0 +1,636 @@
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+    display: inherit;
+ }
+ .navbar-brand>img{
+     width: 150px;
+ }
+ #togglebutton{
+     float: right;
+ }
+ .navbar-expand-sm{
+   display: none;
+ }
+ 
+ /* ============================LANDING PAGE============================= */ 
+ #landingpage {
+    /* background: rgba(0, 0, 0, 0.8); */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), url'{{(images/mainbg.png)}}');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ #landingpage ul>li{
+     color: white;
+     list-style-type: none;
+     font-family: azonixregular;
+     text-decoration: none;
+     font-size: 60px;
+     margin-bottom: 20px;
+ }
+ .firstletter{
+     padding-right: 20px;
+     border-radius: 50%;
+     color: #fff;
+     /* background: #FFD400; */
+    text-align: center;
+    display: inline-block;
+     transition: all .5s ease-out;
+     position: relative;
+ }
+ .test{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .innerlinks {
+     position: relative;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     display: block;
+     background: linear-gradient(to right, #FFD400 50%, #00000005 50%);
+     background-size: 201% 50% !important;
+     background-position: right bottom;
+     transition: all .5s ease-out;
+     color: White;
+     width: fit-content;
+     transition: all .6s ease-out;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   .innerlinks:hover {
+     background-position: left bottom;
+     color: black;  
+   }
+   .innerlinks:hover >.firstletter{
+     background-position: left bottom;
+     color: black;  
+   }
+ 
+ #landingpage ul>li>a{
+     text-decoration: none;
+ }
+ 
+ .innerlinks::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -10px;
+     z-index: 1;
+     width: 17px;
+     height: 4px;
+     background: #fff;
+     transition: all 0.6s ease-out;
+ }
+ 
+ .innerlinks:hover::after {
+     width: 100% !important
+ }
+ .dotstart{
+     width: 10px;
+     height: 10px;
+     background: #fff;
+     border-radius: 50%;
+     margin-top: 3px;
+     position: absolute;
+     z-index: 1;
+ }
+ 
+ .innerlinks::before{
+     content: '';
+     position: absolute;
+     right: 300px;
+     left: 10px;
+     bottom: -13px;
+     z-index: 1;
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     background: #fff;
+     transition: all 0.6s ease-out;
+ }
+ .innerlinks:hover::before{
+  left: 100%;
+ }
+ .mainpageslinks{
+   display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ /* =================END LANDING PAGE============= */
+ 
+ /* ========================OUR SERVICES======================= */
+ #ourservices{
+     background: #FFD400;
+     text-align: center;
+     margin-top: 15px;
+     margin-bottom: 15px;
+    
+ }
+ #ourservices h1{
+     font-size: 60px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     letter-spacing: 1px;
+ }
+ .our{
+     font-weight: 100;
+ }
+ 
+ /* ==========================owl carosal====================== */
+ #carouselsection{
+     /* height: 100vh; */
+     background-color: #1b1b19;
+ }
+ .wrapper{
+     width: 100%;
+   }
+   /* .carousel{
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 30px;
+   } */
+   .carousel .card{
+     color: #fff;
+     text-align: center;
+   }
+   .card>hr{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .carousel .card-1, .carousel .card2, .carousel .card3{
+     background: #1b1b19;
+     margin-top: 50px;
+   }
+ 
+   .webicon{
+     width: 80px !important;
+     margin-top: 30px;
+   }
+   .webicon1{
+       float: right;
+   }
+   .webicon1 img{
+     width: 80px !important;
+     float: right !important;
+   }
+   .line{
+      border-top: 1px solid #FFD400;
+     width: 70%;
+   }
+   .card>h1{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 60px;
+     font-weight: bold;
+     color: #FFD400;
+   }
+   .card>h2{
+     font-family: 'Montserrat', sans-serif;
+     color: #FFD400;
+     font-weight: 600;
+     padding-top: 10px;
+   }
+   .card>p{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+   }
+   .cardimg{
+       text-align: center;
+   }
+   .cardimg>img{
+       display: inline !important;
+       width: 70px !important;
+   }
+   .servicesdetail{
+     padding-left: 45px;
+     padding-right: 45px;
+   }
+  
+   /* ======================end owl carousel===================== */
+ /* ==========================END OR SERVICES========================= */
+ 
+ /* ==========================SATISFIED CLIENTS========================= */
+ #clients{
+   background-image: url(../images/satisfiedclientsbg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+ }
+ .clientsheading{
+  text-align: center;
+  position: relative;
+ }
+ .clientsheading::before{
+   content: '';
+     position: absolute;
+     top: 46px;
+     left: 0;
+     width: 30%;
+     height: 9px;
+     background: black;
+ }
+ .clientsheading::after{
+   content: '';
+     position: absolute;
+     top: 46px;
+     right: 0;
+     width: 30%;
+     height: 9px;
+     background: black;
+ }
+ .satisfed{
+   font-size: 70px;
+   color: #FFD400;
+   font-weight: 100;
+ }
+ .client{
+   font-size: 70px;
+   font-weight: bold;
+   color: black;
+ }
+ 
+ .clientall i{
+   font-size: 100px;
+   background: black;
+   border-radius: 50%;
+   padding: 40px;
+   color: #FFD400;
+ }
+ .clientcontent{
+   color: #1b1b19;
+ }
+ /*========================================= owl Start =================================================*/
+       
+ .main-reviewimage {
+   width: 100%;
+ }
+ 
+ .test_img {
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+   color: #fff;
+ }
+ 
+ .inner-portfolios {
+   width: 100%;
+   margin: 0 auto;
+ }
+ 
+ .custome_slide.owl-carousel .owl-item.active.center i{
+   transform: scale(1.3);
+   margin-top: 0 !important;
+   position: relative;
+   z-index: 999;
+   -webkit-transform: scale(1);
+   transform: scale(1);
+   background-color: #FFD400;
+   font-size: 150px;
+   padding: 55px;
+   border-radius: 50%;
+   color: black;
+   position: relative;
+ }
+ 
+ .custome_slide.owl-carousel .owl-item.active.center::after{
+   content: '';
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   background-color: #1b1b19;
+   top: 16%;
+   left: 16%;
+   z-index: 1222;
+   border-radius: 50%;
+   transform: translate(0%, 0%);
+ }
+ .custome_slide.owl-carousel .owl-item .clientcontent{
+   display: none;
+ }
+ .custome_slide.owl-carousel .owl-item.active.center .clientcontent
+ {
+   display: block;
+ }
+ .custome_slide.owl-carousel .owl-item i{
+   transform: scale(0.7);
+   padding: 10px 0px;
+   transition: all 0.5s;
+   background-color: black;
+   font-size: 150px;
+   padding: 55px;
+   border-radius: 50%;
+   margin-top: 30px;
+   color: #FFD400;
+ }
+ .custome_slide.owl-carousel .owl-item::before{
+   content: '';
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   background-color: #FFD400;
+   top: 20%;
+   left: 42%;
+   border-radius: 50%;
+   transform: translate(0%, 0%);
+ }
+ .custome_slide.owl-carousel .owl-item::after{
+   content: '';
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   background-color: #FFD400;
+   top: 80%;
+   left: 45%;
+   border-radius: 50%;
+   transform: translate(0%, 0%);
+ }
+ .clientcontentimg{
+   width: 20% !important;
+   margin: 0 auto;
+ }
+ .clientcontent p{
+   font-weight: bold;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   padding-bottom: 10pc;
+ }
+ .line1{
+   border-bottom: 1px solid black;
+     width: 60%;
+ }
+ .clientcontent h5{
+   font-weight: bold;
+ }
+ /* .custome_slide.owl-carousel .owl-item i:nth-child(1){
+   transform: scale(0.4);
+   padding: 10px 0px;
+   transition: all 0.5s;
+   background-color: black;
+   font-size: 100px;
+   padding: 30px;
+   border-radius: 50%;
+   margin-top: 60px;
+ } */
+ 
+ 
+ /*========================================= owl END =================================================*/
+ 
+ 
+ /* ==========================END SATISFIED CLIENTS========================= */
+ 
+ 
+ /* ==========================PORTFOLIO========================= */
+ .portfolioimages{
+   margin: 0;
+ }
+ #portfolioproects img{
+   width: 100%;
+ }
+ .payfran1, .payfran2, .payfran3{
+   float: left;
+   padding: 0;
+   height: 100%;
+ }
+ .payfran1 img, .payfran2 img, .payfran3 img{
+   height: 100%;
+ }
+ .sidelogos{
+   margin-top: 20px;
+   margin-bottom: 30px;
+ }
+ .servicescontent{
+   margin-top: 50px;
+ }
+ .servicescontent li{
+   list-style: none;
+ }
+ .projectcontent p{
+   font-size: 12px;
+     color: #808080ba;
+ }
+ .crossbtn{
+   float: right;
+     background: transparent;
+     border: none;
+     font-size: 30px;
+     color: #80808078;  
+ }
+ .crossbtn i{
+   border: 1px solid transparent;
+   padding: 10px;
+ }
+ .crossbtn:hover i{
+   color: red;
+   border: 1px solid red;
+   transition: 0.4s;
+   padding: 10px;
+ }
+ .crossbtn:focus{
+   border: none;
+   outline: none;
+ }
+ .curtain__wrapper, .curtain{
+   overflow: hidden;
+ 
+ }
+ /* .upperimages, .lowerimage{
+   height: 100%;
+ } */
+ #curtainleft, #curtainleftfortwoimg, #curtainleftforoneimg{
+   position: fixed;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   z-index: 22;
+   background-color: white;
+   transform: translateX(-100%);
+   transition: 0.4s;
+   padding: 0;
+ }
+ #curtainright{
+   position: fixed;
+   overflow: hidden;
+   top: 0;
+   right: 0;
+   width: 100%;
+   height: 100vh;
+   z-index: 22;
+   background-color: white;
+   transform: translateX(100%);
+   transition: 0.4s;
+ }
+ .portfoliocontent1btnprojects {
+   color: #FFD400;
+   border: 1px solid #FFD400;
+   background: transparent;
+   padding-left: 40px;
+   padding-right: 40px;
+   font-size: 22px;
+   margin-top: 10px;
+   border-radius: 0.9rem;
+ }
+ .portfoliocontent1btnprojects:hover{
+   color: black;
+     border: 1px solid #FFD400;
+     background: #FFD400;
+     padding-left: 40px;
+     padding-right: 40px;
+     font-size: 22px;
+     border-radius: 0.9rem;
+ }
+ /* ==========================OUR TEAM========================= */
+ .semicircle{
+   height: 100px;
+   border-bottom-left-radius: 50% 100%;
+   border-bottom-right-radius: 50% 100%;
+   border: 50px solid #FFD400;
+   border-top: 60px solid white;
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
+   border-top: none;
+   margin: 0 auto;
+   margin-top: -25px;
+   position: relative;
+   margin-top: -43px;
+ 
+ }
+ /* 
+ .semicircle:hover::after{
+   border: 50px solid black;
+   width: 100%;
+    border-top: none;
+ } */
+ .members{
+   text-align: center;
+ 
+ }
+ .membercount{
+   margin-top: 30px;
+ }
+ .membercount p{
+   font-size: 25px;
+     background: #FFD400;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     display: flex;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: center;
+ }
+ .devname{
+   font-weight: bold;
+ 
+ }
+ .devtitle{
+   font-weight: bold;
+ }
+ .devfullname{
+   color: #FFD400;
+ }
+ .line2{
+   border-top: 1px solid #FFD400;
+   width: 60%;
+ }
+ .linkedin{
+   position: absolute;
+     top: 150%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .linkedin i{
+   font-size: 30px;
+   background: black;
+   padding: 10px;
+   color: white;
+ }
+ .ourteamborder{
+   border-bottom: 10px solid black;
+ }
+ /* ==========================END OUR TEAM========================= */
+ 
+ /* ==========================FOOTER========================= */
+ #footer{
+   background-color: #1b1b19;
+   margin-top: 30px;
+   color: white;
+ }
+ #footer h5{
+   margin-top: 0;
+     margin-bottom: 0;
+ }
+ .footerheading{
+   color: #FFD400;
+ }
+ .callus{
+   margin-top: 60px;
+   margin-bottom: 20px;
+ }
+ .address{
+   margin-bottom: 20px;
+ }
+ .email{
+   margin-bottom: 60px;
+ }
+ .footerlogo::before{
+   content: '';
+     position: absolute;
+     left: 20px;
+     width: 42%;
+     margin-top: 28px;
+     height: 1px;
+     background: #FFD400;
+ }
+ .footerlogo::after{
+     content: '';
+     position: absolute;
+     right: 20px;
+     width: 40%;
+     margin-top: 28px;
+     height: 1px;
+     background: #FFD400;
+ }
+ .footerlogo img{
+   width: 10%;
+ }
+ .footerimage{
+   text-align: center;
+ }
+ .links a{
+   font-size: 25px;
+     color: white;
+     text-decoration: none;
+ }
+ .linksall{
+   margin-top: 60px;
+ }
+ .boreder{
+   border-right: 1px solid #FFD400;
+   height: 256px;
+     margin-top: 70px;
+ }
+ .links li{
+   margin-bottom: 10px;
+ }
+ /* ========================== END FOOTER========================= */
+ 
+ /* ==========================PROJECT PAGE========================= */
+ #payfran4{
+   width: 80% !important;
+ }
+ .allprojects{
+   padding: 0;
+ }
+ .responsiivecontentdiv{
+   padding: 40px;
+ }
+ .responsiivecontentdivimage{
+   display: flex;
+   justify-content: center;
+ }
+ /* ==========================END PROJECT PAGE========================= */

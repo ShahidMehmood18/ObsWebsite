@@ -1,0 +1,343 @@
+/* .box-area{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.box-area li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  animation: animate 20s linear infinite;
+  left: 10px;
+}
+.box-area li:nth-child(1){
+  left: 100%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+} */
+/* .box-area li:nth-child(2){
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(3){
+  left: 70%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 5.5s;
+  animation-duration: 5s;
+}
+.box-area li:nth-child(4){
+  left: 70%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 2s;
+  animation-duration: 15s;
+}
+.box-area li:nth-child(5){
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 4s;
+}
+
+.box-area li:nth-child(6){
+  left: 46%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 1s;
+}
+.box-area li:nth-child(7){
+  left: 24%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 2.5s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(8){
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 3.5s;
+  animation-duration: 5s;
+} */
+#anim{
+    width: 100%;
+    height: 100%;
+}
+.common{
+position: relative;
+padding: 70px 0;
+}
+.shape img{
+  position: absolute;
+  width: 100%;
+}
+.shape .shape1{ 
+  right: 10%;
+  bottom: 50%;
+  width: 5%;
+  opacity: .6;
+  transform-origin: center;
+  animation: shape linear 50s infinite reverse;
+}
+.shape .shape2{ 
+  left: 3%;
+  bottom: 300%;
+  width: 5%;
+  opacity: .6;
+  animation: shape linear 30s infinite reverse;
+}
+.serviveiconanim1{
+  animation: shape linear 50s infinite reverse;
+}
+.serviveiconanim2{
+  animation: shapenew linear 50s infinite forwards;
+}
+
+@keyframes shapenew{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes shape{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.shape .shape3{ 
+  bottom: 350%;
+  left: 0;
+  width: 8%;
+  opacity: .6;
+  transform-origin: center;
+  animation: shape3 linear 20s infinite;
+  transform: translate(-200px, -100px) rotate(0deg);
+}
+@keyframes shape3{
+  100%{
+    transform: translate(1300px, 600px) rotate(360deg);
+  }
+}
+.shape .shape4{ 
+  bottom: 150%;
+  left: 0;
+  width: 11%;
+  opacity: .8;
+  transform-origin: center;
+  animation: shape4 linear 20s infinite 5s;
+  transform: translate(700px, 80px) rotate(0deg);
+}
+@keyframes shape4{
+  100%{
+    transform: translate(1200px, -800px) rotate(360deg);
+  }
+}
+
+.shape .shape5{ 
+  bottom: 80%;
+  left: 100px;
+  width: 9%;
+  opacity: 0;
+  transform-origin: center;
+  animation: shape5 linear 25s infinite;
+  transform: translate(0, -50px) rotate(0deg);
+}
+@keyframes shape5{
+  100%{
+    opacity: 1;
+    transform: translate(0, 800px) rotate(720deg);
+  }
+}
+
+.overlay1{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease all;
+    background-image: linear-gradient(rgba(255, 212, 0, 0.80), rgba(255, 212, 0, 0.80)), url('../images/item1.jpg');
+    /* background-color: rgba(255, 212, 0, 0.80); */
+    /* url('../images/item1.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .overlay2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease all;
+    background-image: linear-gradient(rgba(255, 212, 0, 0.80), rgba(255, 212, 0, 0.80)), url('../images/item2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .overlay3{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease all;
+    background-image: linear-gradient(rgba(255, 212, 0, 0.80), rgba(255, 212, 0, 0.80)), url('../images/item3hoverbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .overlay4{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease all;
+    background-image: linear-gradient(rgba(255, 212, 0, 0.80), rgba(255, 212, 0, 0.80)), url('../images/seohoverbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .overlay5{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease all;
+    background-image: linear-gradient(rgba(255, 212, 0, 0.80), rgba(255, 212, 0, 0.80)), url('../images/item3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .overlay6{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease all;
+    background-image: linear-gradient(rgba(255, 212, 0, 0.80), rgba(255, 212, 0, 0.80)), url('../images/otherhoverbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card:hover .overlay, .card-1:hover .overlay1, .card2:hover .overlay2, .card3:hover .overlay3, .card4:hover .overlay4, .card5:hover .overlay5, .card6:hover .overlay6{
+    opacity: 1;
+  }
+  .overlay1>h1, .overlay2>h1, .overlay3>h1, .overlay4>h1, .overlay5>h1, .overlay6>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+  }
+  .overlay1>h2, .overlay2>h2, .overlay3>h2, .overlay4>h2, .overlay5>h2, .overlay6>h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.overlay1>p, .overlay2>p, .overlay3>p, .overlay4>p, .overlay5>p, .overlay6>p{
+  font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.overlay1>hr, .overlay2>hr, .overlay3>hr, .overlay4>hr, .overlay5>hr, .overlay6>hr{
+  border-top: 1px solid black;
+}
+
+/* ==========================PORTFOLIO========================= */
+.portfolioimages img{
+    width: 100%;
+   
+   }
+   .firstimage{
+      position: relative;
+      transition: 0.4s ease-in-out;
+   }
+   .portfoliooverlay1{
+     position: absolute;
+     top: 0;
+     left: 0;
+     overflow: hidden;  
+     z-index: 2;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: 0.4s ease-in-out;
+   }
+   .portfoliooverlay1:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.0);
+   }
+  
+   .col-sm-4:hover .firstimage{
+     transform: scale(1.2);
+   }
+   .col-sm-4:hover .portfoliooverlay1{
+    background-color: rgba(0,0,0,0.5);
+   }
+   #curtaindiv{
+     cursor: pointer;
+     
+   }
+   .portfoliocontent1btnprojects{
+     opacity: 0;
+     transition: 0.4s ease-in;
+   }
+   #curtaindiv:hover .portfoliocontent1btnprojects{
+     opacity: 1;
+   }
+   .portfoliocontent1{
+     position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+   }
+   .portfoliocontent1 h2{
+     color: #FFD400;
+   }
+   .portfoliocontent1btn{
+       color: #FFD400;
+       border: 1px solid #FFD400;
+       background: transparent;
+       padding-left: 40px;
+       padding-right: 40px;
+       font-size: 25px;
+       border-radius: 0.9rem;
+   }
+   .portfoliocontent1btn:hover{
+     color: black;
+     border: 1px solid #FFD400;
+     background: #FFD400;
+     padding-left: 40px;
+     padding-right: 40px;
+     font-size: 25px;
+     border-radius: 0.9rem;
+   }
+   .portfolioimages .col-sm-4{
+     padding: 0;
+     overflow: hidden;
+     transition: 0.4s ease-in-out;
+   }
+   /* ==========================END PORTFOLIO========================= */
+   
+

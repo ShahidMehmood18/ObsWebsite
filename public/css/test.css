@@ -1,0 +1,139 @@
+#curtainleft.in, #curtainleftfortwoimg.in, #curtainleftforoneimg.in {
+    left: 0;
+}
+#curtainleft, #curtainleftfortwoimg, #curtainleftforoneimg {
+    background: #fff url(../images/flashcheck.png) no-repeat scroll center center;
+    left: -70%;
+    width: 70%;
+}
+#curtainleft, #curtainleftfortwoimg, #curtainleftforoneimg{
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.refgridhl3 .refbild1 {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+.refgridhl3 .refbildfor1 {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.refgridhl3 .refbild2 {
+    height: 50%;
+    left: 50%;
+    top: 0;
+    width: 50%;
+}
+.refgridhl3 .refbild3 {
+    height: 50%;
+    left: 50%;
+    bottom: 0;
+    width: 50%;
+}
+.refbild2fortwo {
+    height: 50%;
+    left: 0%;
+    top: 0;
+    width: 100%;
+}
+.refbild3fortwo {
+    height: 50%;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+}
+.refbild {
+    background-color: #eee;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+.refbildbg {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.35s ease-in-out 0s;
+    width: 100%;
+    z-index: 1;
+}
+.refbildbg:hover{
+    transform: scale(1.2);
+}
+#curtainright.in {
+    right: 0;
+}
+#curtainright {
+    background: #fff;
+    width: 30%;
+    right: -30%;
+}
+#curtainright {
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease-in-out 0s;
+}
+#curtainright .inner{
+    bottom: 0;
+    left: 0;
+    min-height: 300px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: all 0.35s ease-in-out 0s;
+}
+.refgridhl3 .reflineh {
+    left: 50%;
+    top: 50%;
+    width: 50%;
+}
+.refgridhl3fortwo .reflineh {
+    left: 0%;
+    top: 50%;
+    width: 100%;
+}
+.reflineh {
+    background-color: #fff;
+    height: 6px;
+    /* left: 0; */
+    margin: -3px 0 0 0;
+    position: absolute;
+    top: 50%;
+    /* width: 100%; */
+    z-index: 100;
+}
+.refgridhl3 .reflinev {
+    height: 100%;
+    left: 50%;
+    top: 0;
+}
+.reflinev {
+    background-color: #fff;
+    height: 50%;
+    left: 35%;
+    margin: 0 0 0 -3px;
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    z-index: 100;
+}

@@ -1,0 +1,10 @@
+[22-Nov-2021 05:00:15 UTC] PHP Warning:  require_once(/home/w32ehrxv9h30/public_html/public/./bootstrap/app.php): Failed to open stream: No such file or directory in /home/w32ehrxv9h30/public_html/public/index.php on line 47
+[22-Nov-2021 05:00:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/w32ehrxv9h30/public_html/public/./bootstrap/app.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/w32ehrxv9h30/public_html/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/w32ehrxv9h30/public_html/public/index.php on line 47
+[22-Nov-2021 05:00:23 UTC] PHP Warning:  require_once(/home/w32ehrxv9h30/public_html/public/bootstrap/app.php): Failed to open stream: No such file or directory in /home/w32ehrxv9h30/public_html/public/index.php on line 47
+[22-Nov-2021 05:00:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/w32ehrxv9h30/public_html/public/bootstrap/app.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/w32ehrxv9h30/public_html/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/w32ehrxv9h30/public_html/public/index.php on line 47

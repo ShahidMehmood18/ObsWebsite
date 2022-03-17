@@ -1,0 +1,321 @@
+@media screen and (min-width: 1301px){
+      .carousel .card-1, .carousel .card2, .carousel .card3, .carousel .card4, .carousel .card5, .carousel .card6{
+        /* padding: 50px !important; */
+    }
+     .landingpage, .navlinks {
+       padding-top: 4%;
+     }
+     .contactcontainer {
+    padding-top: 8%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+      .carousel .card-1, .carousel .card2, .carousel .card3, .carousel .card4, .carousel .card5, .carousel .card6{
+        padding: 0px !important;
+    }
+    #clients {
+        margin-top: 5% !important;
+    }
+    .portfolios {
+        margin-top: 3% !important;
+    }
+    #ourteam{
+        margin-top: 32%;
+    }
+    .carouselmember{
+        padding-top: 70px !important;
+    }
+    .form-groupfooter {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+    .callus{
+        margin-top: 0px !important;
+    }
+    .boreder {
+        margin-top: 20px !important;
+    }
+    .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
+        padding: 0px 50px 50px 50px !important;
+    } 
+}
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: contents;
+        position: fixed;
+    }
+
+    .nav-item {
+        line-height: 50px;
+        border-bottom: 1px solid rgb(58 58 58 / 11%);
+        padding-left: 15px;
+        font-weight: bold;
+    }
+
+    .nav-itemimg {
+        border: none;
+    }
+
+    .navbar-expand-sm {
+        display: block;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .bg-dark {
+        background-color: #FFD400 !important;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+    .navbar-toggler2.show{
+      display: block;    
+    }
+
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .firstletter {
+        width: 50px;
+        height: 50px;
+    }
+   .mobileMenu-active{
+    overflow: hidden;
+   }
+    .overlaynav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        transition: 0.5s ease-in;
+        overflow: hidden;
+    }
+
+    .overlaynav.open {
+        display: block;
+    }
+
+    #carouselsection {
+        height: auto;
+    }
+
+    .mobnavlogo {
+        width: 92%;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .navlowelogo {
+        transform: rotate(45deg);
+        opacity: 0.2;
+    }
+
+    .navbar-brand>img {
+        width: 90px;
+    }
+
+    .navlinks {
+        margin: 0;
+    }
+
+    #landingpage ul>li, #ourservices h1, .satisfed, .client {
+        font-size: 35px;
+    }
+
+    .clientsheading::before, .clientsheading::after {
+        /* top: 26px;
+        width: 17%; */
+        height: 3px;
+    }
+
+    .custome_slide.owl-carousel .owl-item.active.center::after {
+        top: 12%;
+        left: 20%;
+    }
+    .portfoliocontent1btn {
+        font-size: 19px;
+    }
+
+    .test_img {
+        margin-left: 25px;
+    }
+
+    .boreder {
+        display: none;
+    }
+
+    .linksall {
+        margin-top: 0;
+    }
+
+    .links {
+        list-style: none;
+    }
+
+    .callus, .address, .email {
+        text-align: center;
+    }
+
+    .portfoliocontent1btnprojects {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
+
+    #curtainright {
+        top: unset !important;
+        bottom: -30% !important;
+        height: 50vh !important;
+        width: 100% !important;
+        transform: none;
+        transform: translateY(100%);
+    }
+
+    #curtainright.in {
+        bottom: 0 !important;
+        right: none;
+        /* transform: translateY(0%); */
+    }
+
+    #curtainleft, #curtainleftfortwoimg, #curtainleftforoneimg {
+        height: 50vh !important;
+        width: 100% !important;
+    }
+
+    .contactformpara {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .contacthead {
+        font-size: 35px;
+    }
+
+    .overlay3, .overlay1 {
+        padding: 10px 20px;
+    }
+
+    .pills {
+        font-size: 20px;
+    }
+
+    .semicircle {
+
+        height: 50px;
+        transform: translate(24px, -12px);
+        width: 75%;
+    }
+    .pillscontact{
+        font-size: 20px;
+    }
+    .footerlogo img {
+        width: 30%;
+    }
+    .reservedright {
+        opacity: 0.5;
+        margin-bottom: 0;
+        /* transform: translateY(-30
+    px
+    ); */
+        font-size: 10px;
+        text-align: center;
+    }
+    #payfran4 {
+        width: 50% !important;
+    }
+    .sidelogos{
+        margin-top: 0;
+    }
+    .projectcontent{
+        display: none;
+    }
+    .servicescontent{
+        margin-top: 0;
+    }
+    .reservedright{
+        display: none;
+    }
+    .clientsheadingcontact{
+        padding-top: 10%;
+    }
+    .form-control {
+        margin-left: 10px !important;
+    }
+    .footerlogo::after, .footerlogo::before{
+        width: 30%;
+    }
+    .shape .shape2{
+        width: 15%;
+    }
+    .shape .shape3{
+        width: 20%;
+    }
+    .shape .shape1 {
+        right: 1%;
+        width: 15%;
+        bottom: 410%;
+    }
+    .sercontentinnser{
+        font-size: 14px;
+    }
+    .linksall {
+        justify-content: start;
+    }
+    .pillcontactfooter{
+        font-size: 20px;
+    }
+    section{
+        height: auto;
+        scroll-snap-align: none;
+    }
+    #teamcontainer {
+        padding-top: 10% !important;
+    }
+    .footerpdatecontent {
+        padding-top: 30px;
+    }
+    .form-groupfooter {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .navlowelogo {
+        margin-top: 90px;
+        z-index: -10;
+    }
+  
+}
