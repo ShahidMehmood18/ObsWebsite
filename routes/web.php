@@ -22,5 +22,7 @@ Route::get('/projects',function(){
 
 Route::get('/','CategoriesController@index');
 Route::get('/test','CategoriesController@test');
+Route::get('/sample','CategoriesController@sample');
+Route::get('/portfolio','CategoriesController@portfolio');
 
 Route::post('mail', [MailController::class,'store'])->name('mail');

@@ -5,8 +5,8 @@ body {
   overflow: hidden;
 } */
 
- #popup_box { 
-  display:none; 
+ #popup_box {
+  display:none;
   position: fixed;
   height: auto;
   width: 300px;
@@ -18,13 +18,13 @@ body {
 }
 
 #popupBoxClose {
-  font-size:20px;  
-  line-height:15px;  
-  right:5px;  
-  top:5px;  
-  position:absolute;  
-  color:#FFD400;  
-  font-weight:500;      
+  font-size:20px;
+  line-height:15px;
+  right:5px;
+  top:5px;
+  position:absolute;
+  color:#FFD400;
+  font-weight:500;
 }
  html {
   scroll-behavior: smooth;
@@ -74,6 +74,24 @@ body {
    font-size: 56px;
    transform: translate(-50%, -50%);
  }
+
+ .viewMorePills
+ {
+    font-family: azonixregular;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: inline;
+    color: #FFD400;
+    background: black;
+    padding: 8px 20px;
+    border-radius: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+ }
  .portfoliopill{
       font-family: azonixregular;
       letter-spacing: 1px;
@@ -88,7 +106,7 @@ body {
        border-radius: 50px;
        font-size: 60px;
        transform: translate(-50%, -50%);
-       margin-top: 50px;
+       margin-top: -75px;
  }
 
  .pillscontact {
@@ -566,10 +584,10 @@ body {
        z-index: -1;
        height: 9px;
        background: black;
-        margin-top: 50px;
+        margin-top: -75px;
  }
  .clientsheadingfooter::before, .clientsheadingfooter::after {
-  background: #FFD400 !important; 
+  background: #FFD400 !important;
 }
 
  .clientsheading::after {
@@ -589,7 +607,7 @@ body {
    z-index: -1;
    height: 9px;
    background: black;
-    margin-top: 50px;
+    margin-top: -79px;
  }
 
  .satisfed {

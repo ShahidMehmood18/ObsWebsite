@@ -33,7 +33,7 @@
           </ul>
         </div>
         <div class="col-md-6">
-           <div id="anim"></div> 
+           <div id="anim"></div>
           <!--<div class=""><img src='{{asset("images/mainanim.png")}}' class="mainanimimg" /></div>-->
         </div>
       </div>
@@ -53,15 +53,15 @@
         See something you like? Let's have a chat about it on Whatsapp <br>0304 4366760<br><br>
         we also look at emails on info@obstechnologia.com, or you could also leave your email address or phone number, and we will get back to you on that. Thanks!
     </p>
-    <a id="popupBoxClose"><i class="fas fa-times"></i></a>    
+    <a id="popupBoxClose"><i class="fas fa-times"></i></a>
     </div>
   </section>
- 
+
   <!-- =====================Our Services============================ -->
   <section id="carouselsection" class="ourServices">
     <div id="ourservices">  <h1>Our SERVICES</h1>  </div>
-   
- 
+
+
     <div class="container-fluid" style="padding: 70px 0px;">
       <div class="wrapper ">
         <div class="carousel owl-carousel" style="display: block;">
@@ -308,11 +308,11 @@
         <h1 class="pills">Satisfied Clients</h1>
       </div>
 
-      <div class="row  mt-5 pb-5" style="width: 100%;">
-        <div class="col-md-12 ">
+      <div class="row mb-5 mt-5 pb-5" style="width: 100%;">
+        <div class="col-md-12 mb-5">
           <!-- <div class="portfolios"> -->
-            <div class="inner-portfolios">
-              <div class="clients-carousel owl-carousel custome_slide" id="slide-portfolio">
+            <div class="inner-portfolios mb-5">
+              <div class="clients-carousel owl-carousel custome_slide mb-5" id="slide-portfolio">
                 <div class="test_img">
                   <div class="main-reviewimage">
                     <i class="fa fa-user"></i>
@@ -321,10 +321,10 @@
                     <h5>Payfran</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Osama and company always get the job done! They worked on this project 
-                        diligently and delivered a great product, as they always do. Osama is a good hire 
-                        and an intelligent young man. He and his team work together to achieve the goals 
-                        and like always, the result is amazing. 
+                    <p>Osama and company always get the job done! They worked on this project
+                        diligently and delivered a great product, as they always do. Osama is a good hire
+                        and an intelligent young man. He and his team work together to achieve the goals
+                        and like always, the result is amazing.
                     </p>
                   </div>
                 </div>
@@ -336,9 +336,9 @@
                     <h5>Waraka</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Osama and his team did a great job. They were able to build the app according to 
-                        my specifications. We didn't complete the project on time; however, they 
-                        communicated with me ahead of time so that I knew that I could expect delays but 
+                    <p>Osama and his team did a great job. They were able to build the app according to
+                        my specifications. We didn't complete the project on time; however, they
+                        communicated with me ahead of time so that I knew that I could expect delays but
                         other than that, job well done. Best of luck team OBS Technologia!
                     </p>
                   </div>
@@ -352,9 +352,9 @@
                     <h5>Party</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>We have been working with OBS Technologia for the third time. The team 
-                        consists of very good and competent individuals. The work is carried out quickly 
-                        and accurately on time. Very satisfied with this team’s work, and we hope to work 
+                    <p>We have been working with OBS Technologia for the third time. The team
+                        consists of very good and competent individuals. The work is carried out quickly
+                        and accurately on time. Very satisfied with this team’s work, and we hope to work
                         more in the future. We recommend team OBS Technologia.
                     </p>
                   </div>
@@ -368,9 +368,9 @@
                     <h5>Flash math</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Team OBS Technologia is an exceptional talent. They know what they are doing 
-                       and are very responsive. They were able to build the two apps that I needed for iOS 
-                       and Android. The end product was the same as promised. I would recommend 
+                    <p>Team OBS Technologia is an exceptional talent. They know what they are doing
+                       and are very responsive. They were able to build the two apps that I needed for iOS
+                       and Android. The end product was the same as promised. I would recommend
                        them to meet your IT needs. I will most definitely be using them again!
                     </p>
                   </div>
@@ -384,9 +384,9 @@
                     <h5>NFT Fantasy</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>OBS Technologia team has an extremely well-rounded skill set across IOS and 
-                      Android mobile app development. The team was able to successfully bring my 
-                      designs to life, within IOS and Android domain; by turning my wireframes and 
+                    <p>OBS Technologia team has an extremely well-rounded skill set across IOS and
+                      Android mobile app development. The team was able to successfully bring my
+                      designs to life, within IOS and Android domain; by turning my wireframes and
                       requirements into apps.
                     </p>
                   </div>
@@ -400,9 +400,9 @@
                     <h5>VO RIDES</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Based on my working experience with OBS Technologia team, I will always 
-                        recommend this team of talented developers. They are very smart and assist well in 
-                        the brainstorming process. The team was able to work with me from design to final 
+                    <p>Based on my working experience with OBS Technologia team, I will always
+                        recommend this team of talented developers. They are very smart and assist well in
+                        the brainstorming process. The team was able to work with me from design to final
                         product
                     </p>
                   </div>
@@ -416,9 +416,9 @@
                     <h5>Cash me</h5>
                     <img src="{{asset('images/reviewstar.png')}}" alt="" class="clientcontentimg">
                     <hr class="line1">
-                    <p>Osama kept in regular contact and was clear from the beginning, about the 
-                      capabilities of his team. Not only his team is proficient in developing mobile 
-                      applications, but the graphic design skillset was clear in the UI/UX which was 
+                    <p>Osama kept in regular contact and was clear from the beginning, about the
+                      capabilities of his team. Not only his team is proficient in developing mobile
+                      applications, but the graphic design skillset was clear in the UI/UX which was
                       suggested by the team.
                     </p>
                   </div>
@@ -466,14 +466,14 @@
                         if($project->content)
                             $content = $project->content;
                     @endphp
-                    
+
                     @if($project->cat_id == '3' || $project->cat_id == '5')
                     <div class="col-sm-4" id="curtaindiv" onclick="showDiv('{{ $image3 }}','{{ $image4 }}','{{ $image5 }}','{{ $image6 }}', '{{ $title }}','{{ $color }}','{{ $content }}')">
                       <img src="{{ asset($project->proimg1) }}" class="firstimage" style="width:100%" loading="lazy">
                       <div class="portfoliooverlay1 portfoliooverlay2">
                         <div class="portfoliocontent1">
                           <h2>{{$project->title}}</h2>
-        
+
                           <button class="btn portfoliocontent1btnprojects" onclick="showDiv('{{ $image3 }}','{{ $image4 }}','{{ $image5 }}','{{ $image6 }}', '{{ $title }}','{{ $color }}','{{ $content }}')">View Project</button>
                         </div>
                       </div>
@@ -484,15 +484,15 @@
                   <div class="portfoliooverlay1 portfoliooverlay2">
                     <div class="portfoliocontent1">
                       <img src="{{ asset($project->proimg2) }}">
-    
+
                       <button class="btn portfoliocontent1btnprojects" onclick="showDiv('{{ $image3 }}','{{ $image4 }}','{{ $image5 }}','{{ $image6 }}', '{{ $title }}','{{ $color }}','{{ $content }}')">View Project</button>
                     </div>
                   </div>
                 </div>
                     @endif
-                    
+
                 @endforeach
-          
+
           </div>
         </div> -->
         <div class="container-fluid px-4">
@@ -514,11 +514,11 @@
           @endforeach
         </div>
       </div>
-      </section> 
-      
-      
-      
-      
+      </section>
+
+
+
+
       <!-- =====================End Satisfied Clients============================ -->
       <!-- =====================Portfolio Projects============================ -->
       <section id="portfolioproects" class="curtain">
@@ -681,6 +681,14 @@
   </div>
   <!-- =====================End Our Portfolio============================ -->
 
+  <section>
+      <div class="container-fluid p-5 pt-5" >
+          <button class="btn viewMorePills" href="{{url('/portfolio')}}">
+                     View More
+          </button>
+      </div>
+  </section>
+
   <!-- =====================OUR TEAM============================ -->
   <section id="ourteam">
     <div class="container-fluid" style="padding: 0;" id="teamcontainer">
@@ -731,7 +739,7 @@
     }
 
     function showDiv(img1, img2, img3, img4, title, color, content) {
-      
+
       var counter = 0;
       if (img1) {
         counter++;

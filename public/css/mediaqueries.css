@@ -38,7 +38,7 @@
     }
     .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
         padding: 0px 50px 50px 50px !important;
-    } 
+    }
 }
 @media screen and (max-width: 576px) {
     .navbar {
@@ -89,7 +89,7 @@
         transition: left 300ms ease-in-out;
     }
     .navbar-toggler2.show{
-      display: block;    
+      display: block;
     }
 
     .navbar-toggler.collapsed~.navbar-collapse {
@@ -158,6 +158,19 @@
         font-size: 35px;
     }
 
+    #anim {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainpageslinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* z-index: 0; */
+        margin-top: 50px;
+    }
+
     .clientsheading::before, .clientsheading::after {
         /* top: 26px;
         width: 17%; */
@@ -198,6 +211,23 @@
         font-size: 20px;
     }
 
+    .portfoliopill {
+        font-family: azonixregular;
+        letter-spacing: 1px;
+        font-weight: 500;
+        display: inline;
+        background: #FFD400;
+        padding: 16px 23px;
+        border-radius: 2.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 50px;
+        font-size: 20px;
+        transform: translate(-50%, -50%);
+        margin-top: -75px;
+    }
+
     #curtainright {
         top: unset !important;
         bottom: -30% !important;
@@ -220,6 +250,7 @@
 
     .contactformpara {
         padding: 20px 0px 20px 0px;
+        font-size: 14px;
     }
 
     .contacthead {
@@ -308,6 +339,7 @@
     }
     .footerpdatecontent {
         padding-top: 30px;
+        margin-top: 35px;
     }
     .form-groupfooter {
         margin-bottom: 0px;
@@ -317,5 +349,5 @@
         margin-top: 90px;
         z-index: -10;
     }
-  
+
 }
